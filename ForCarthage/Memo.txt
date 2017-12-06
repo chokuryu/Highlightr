@@ -1,0 +1,21 @@
+
+Memo
+
+(1) Added symlink to project dir.
+ .
+ ..
+ Assets -> ../../../Pod/Assets
+ Classes -> ../../../Pod/Classes
+ HighlightrForCarthage.h
+ Info.plist
+
+(2) Added those linked folders to project
+ -> “copy if needed” was not checked
+
+(3) Done build
+
+(4) Changed framework’s target scheme to shared, and run code below
+
+carthage build --no-skip-current
+
+
